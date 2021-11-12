@@ -1,0 +1,44 @@
+.game_description_container {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.game_description_additional_content {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    line-height: 1.5rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .game_description_container {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .game_description_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .game_description_additional_content {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+
+}

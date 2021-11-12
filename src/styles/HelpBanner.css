@@ -1,0 +1,48 @@
+.help_banner_container {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 5%; */
+    background-image: url("../assets/help-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35vh;
+    position: relative;
+}
+
+.help_banner_title {
+    color: var(--white);
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 7vh;
+    margin-bottom: 2%;
+}
+
+.help_banner_description {
+    color: var(--white);
+    margin-bottom: 3%;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .help_banner_title {
+        margin-bottom: 5%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+
+}

@@ -1,0 +1,26 @@
+.admin_brackets_dashboard_container {
+    width: 70%;
+    margin: 3% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.admin_brackets_dashboard_container input {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    width: 30%;
+    margin: 3% auto 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .admin_brackets_dashboard_container {
+        width: 90%;
+    }
+
+    .admin_brackets_dashboard_container input {
+        width: 100%;
+    }
+}

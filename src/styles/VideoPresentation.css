@@ -1,0 +1,88 @@
+.home_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.video_text_container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.home_catch_phrase {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 7% auto;
+}
+
+.video_text {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin: auto 0;
+    line-height: 1.5rem;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .video_player {
+        width: 60%;
+    }
+
+    .video_text {
+        width: 35%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .video_text_container {
+        flex-wrap: wrap;
+    }
+
+    .video_player {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .video_text {
+        width: 100%;
+    }
+
+    .home_catch_phrase {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 10% auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .home_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .video_text_container {
+        flex-wrap: wrap;
+    }
+
+    .video_player {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .video_text {
+        width: 100%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+    .video_player {
+        height: auto;
+    }
+}

@@ -1,0 +1,155 @@
+video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.aa {
+    width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    background: url('/src/assets/3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(43, 24, 58, 0.3);
+    -o-object-fit: contain;
+       object-fit: contain;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.hero-container>h1 {
+    color: #F5F5F5;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+.hero-container>p {
+    margin-top: 8px;
+    color: #F5F5F5;
+    font: 32px;
+}
+
+.li_countdown {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.li_countdown span {
+    display: block;
+    font-size: 4.5rem;
+    color: #F5F5F5;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+    color: #F5F5F5;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+.hero-btn,
+.btn {
+    margin: 6px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .hero-container>h1 {
+        font-size: 70px;
+    }
+
+    .li_countdown>span {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .hero-container>h1 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .hero-container>p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-container>h1 {
+        font-size: 35px;
+    }
+
+    .li_countdown {
+        font-size: 1em;
+    }
+
+    .li_countdown>span {
+        font-size: 3em;
+    }
+
+    .hero-btns {
+        width: 90%;
+    }
+
+    .hero-btn,
+    .btn {
+        margin: 0px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .li_countdown>span {
+        font-size: 2em;
+    }
+
+    .li_countdown {
+        padding: 0.7em;
+    }
+}

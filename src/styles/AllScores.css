@@ -1,0 +1,90 @@
+.all_scores_container {
+    width: 80%;
+    /* min-width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    overflow-x: auto;
+    position: relative;
+}
+
+.all_scores_table {
+    width: 100%;
+}
+
+.little_container {
+    width: 60%;
+}
+
+.all_scores_title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+th,
+td {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    min-width: 120px;
+    padding: 3% 1%;
+}
+
+.all_scores_sticky_column {
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    box-shadow: -10px 7px 10px 0 rgba(92, 62, 113, 0.5);
+}
+
+.head {
+    background-color: #8f6ea5;
+}
+
+.body {
+    background-color: #d6c5e3;
+}
+
+.all_scores_admin_save_button {
+    display: flex;
+    justify-content: center;
+}
+
+.admin_buttons_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1% auto 0 auto;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .little_container {
+        width: 80%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .all_scores_container,
+    .little_container {
+        width: 90%;
+    }
+
+    th,
+    td {
+        width: 22vw;
+        min-width: 20vw;
+        padding: 3% 1%;
+    }
+
+    .admin_buttons_container {
+        width: 90%;
+    }
+
+    .all_scores_admin_save_button {
+        width: 90%;
+        margin: 1% auto;
+    }
+} 

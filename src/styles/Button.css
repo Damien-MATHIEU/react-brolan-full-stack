@@ -1,0 +1,131 @@
+.btn {
+    padding: 8px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background-color: var(--white);
+    color: var(--black);
+    border: var(--white);
+    transition: all 0.3s ease-out;
+}
+
+.btn--primary--dark {
+    background-color: var(--light-purple);
+    color: var(--white);
+    border: var(--light-purple);
+    transition: all 0.3s ease-out;
+}
+
+.btn--primary--disabled {
+    background-color: #CCCCCC;
+    color: var(--black);
+    border: #CCCCCC;
+    cursor: not-allowed;
+
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: var(--white);
+    padding: 8px 20px;
+    border: 1px solid var(--white);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--dark {
+    background-color: transparent;
+    color: var(--light-purple);
+    padding: 8px 20px;
+    border: 1px solid var(--light-purple);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--red {
+    background-color: transparent;
+    color: var(--red);
+    padding: 8px 20px;
+    border: 1px solid var(--red);
+    transition: all 0.3s ease-out;
+}
+
+.btn--small {
+    font-size: 0.9em !important;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--outline:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--dark:hover {
+    background-color: var(--light-purple);
+    color: var(--white);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline--red:hover {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+}
+
+.btn--primary:hover,
+.btn--primary--dark:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.07);
+    box-shadow: 0px 8px 15px rgba(43, 24, 58, 0.2);
+}
+
+.btn--primary:active,
+.btn--primary--dark:active {
+    transition: all 0.1s ease-out;
+    box-shadow: 0px 4px 10px rgba(43, 24, 58, 0.2);
+    transform: scale(1);
+}
+
+.btn--outline:active,
+.btn--outline--dark:active,
+.btn--outline--red:active {
+    transition: all 0.1s ease-out;
+    transform: scale(0.93);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn--large {
+        padding: 14px 26px;
+    }
+
+    .btn--medium {
+        padding: 10px 20px;
+    }
+
+    .btn--mobile {
+        width: 100%;
+    }
+} 
+

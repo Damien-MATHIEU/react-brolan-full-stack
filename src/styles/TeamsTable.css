@@ -1,0 +1,84 @@
+.teams_table_container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+table {
+    border: 2px solid var(--light-purple);
+    text-align: center;
+    min-width: 400px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: inherit;
+}
+
+tr {
+    border-top: 1px solid var(--light-purple);
+    padding: 3px;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--light-purple);
+    padding: 5%;
+}
+
+th,
+.th_style {
+    background-color: var(--light-purple);
+    color: var(--white);
+}
+
+tr {
+    background-color: #ECE5F1;
+    transition: all 0.15s ease-out;
+}
+
+tr:hover {
+    background-color: rgba(216, 197, 231, 0.5);
+    transition: all 0.15s ease-out;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    td, th {
+        min-width: 30vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .teams_table_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    table {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .teams_table_container td, .teams_table_container th {
+        min-width: auto;
+        padding: 3% 1.5%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+
+}

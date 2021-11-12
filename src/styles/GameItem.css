@@ -1,0 +1,38 @@
+.game_item_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.game_item_img {
+    width: 35%;
+    height: auto;
+}
+
+.game_item_text_container {
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin: auto 0;
+}
+
+.game_item_title_link {
+    text-decoration: none;
+    transition: all 0.15 ease-out;
+}
+
+.game_item_title_link:hover {
+    text-decoration: underline;
+    transition: all 0.15 ease-out;
+}
+
+.game_item_title {
+    margin-bottom: 5%;
+}
+
+.game_item_description {
+    margin-bottom: 3%;
+    line-height: 1.5rem;
+}

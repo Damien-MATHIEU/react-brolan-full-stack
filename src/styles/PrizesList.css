@@ -1,0 +1,155 @@
+.prizes_page_container {
+    width: 90%;
+    margin: 5% auto 10% auto;
+}
+
+.prizes_list_container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.prizes_list_title {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* Containers */
+.third_prize_container,
+.second_prize_container,
+.first_prize_container {
+    width: 33%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.third_prize_container {
+    height: 25vh;
+    background-image: url('../assets/Third.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second_prize_container {
+    height: 45vh;
+    background-image: url('../assets/second.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first_prize_container {
+    height: 75vh;
+    display: flow-root;
+    background-image: url('../assets/first.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Third prize */
+.third_prize_line {
+    background-color: #d47f4f;
+    width: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.third_prize_content_container,
+.second_prize_content_container,
+.first_prize_content_container {
+    align-self: flex-end;
+}
+
+.second_prize_content_container {
+    text-align: end;
+}
+
+.first_prize_content_container {
+    text-align: center;
+}
+
+.first_prize_line {
+    background-color: #F2BB05;
+    width: 10px;
+    height: 90%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+}
+
+.second_prize_line {
+    background-color: #8e94a1;
+    width: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.desktop {
+    display: flex;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .third_prize_container,
+    .second_prize_container,
+    .first_prize_container {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .third_prize_container {
+        background-image: url("../assets/third-mobile.svg");
+    }
+
+    .second_prize_container {
+        background-image: url("../assets/second-mobile.svg");
+    }
+
+    .first_prize_container {
+        background-image: url("../assets/first-mobile.svg");
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .first_prize_line,
+    .third_prize_line,
+    .second_prize_line {
+        display: none;
+    }
+
+    .prize_content_title {
+        text-align: center;
+    }
+
+    .third_prize_content_container,
+    .second_prize_content_container,
+    .first_prize_content_container {
+        align-self: center;
+        text-align: center;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {}

@@ -1,0 +1,69 @@
+.hero_container {
+    background: url('/src/assets/3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(43, 24, 58, 0.3);
+    -o-object-fit: contain;
+       object-fit: contain;
+    justify-content: center;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.league_of_legends {
+    background: url('/src/assets/lol-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.rocket_league {
+    background: url('/src/assets/rocket-league-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.csgo {
+    background: url('/src/assets/csgo-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.valorant {
+    background: url('/src/assets/valorant-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hots {
+    background: url('/src/assets/hots-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.haxball {
+    background: url('/src/assets/haxball-hero.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.slapshot {
+    background: url('/src/assets/slapshot-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.chess {
+    background: url('/src/assets/chess-hero.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.battlerite {
+    background: url('/src/assets/battlerite-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.slappyball {
+    background: url('/src/assets/slappyball-hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.game_title {
+    color: var(--white);
+}

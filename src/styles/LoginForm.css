@@ -1,0 +1,30 @@
+.login_form_container {
+    width: 70%;
+    margin: 5% auto 0 auto;
+}
+
+.login_form_title {
+    margin-bottom: 5%;
+}
+
+.login_form_container input {
+    padding: 15px;
+}
+
+.login_form_form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.login_form_form input {
+    margin-bottom: 5%;
+    min-width: 50%;
+}
+
+.login_form_invalid {
+    color: var(--red);
+    text-align: center;
+}
