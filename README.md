@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Modify this lines in `app.js`:
 
-`app.use(
+```app.use(
     session({
         key: "exemple",
         secret: "YourSecretHere",
@@ -29,17 +29,19 @@ const db = mysql.createConnection({
     host: 'localhost',
     password: '',
     database: 'brolan',
-});`
+});
+```
 
 And for the cors librairy if you want to use it 
 
-`app.use(
+```app.use(
     cors({
         origin: ['https://example.com'],
         methods: ["GET", "POST"],
         credentials: true,
     })
-);`
+);
+```
 
 Finally, run these commands at the root of your project:
 
