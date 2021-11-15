@@ -47,7 +47,11 @@ app.use(
 
 Finally, run these commands at the root of your project:
 
-`run ./app.js`
+```
+run ./app.js
+```
 
-`yarn start`
+```
+yarn start
+```
 
